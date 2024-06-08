@@ -81,7 +81,7 @@ add_action('pre_get_posts', 'university_adjust_queries');
 
 //adding a google map api key for the acf field
 function universityMapKey($api) {
-    $api['key'] = 'AIzaSyCxU-Dab1JcxKeJo4nVi7c9zttBKGHJeHc';
+    $api['key'] = 'key placeholder';
     return $api;
 }
 add_filter('acf/fields/google_map/api', 'universityMapKey');
